@@ -1,0 +1,15 @@
+{
+  "depth_similarity": 0.19999999999999996,
+  "degree_similarity": 0.02692307692307694,
+  "root_ratio_similarity": 0.34642857142857153,
+  "leaf_ratio_similarity": 0.5607142857142857,
+  "density_similarity": 0.01863905325443782,
+  "structural_similarity_score_no_density": 0.2835164835164835,
+  "structural_similarity_score_with_density": 0.23054099746407436,
+  "inputs": {
+    "aiops_structural_summary": "aiops_structural_summary.json",
+    "datacenter_structural_summary": "datacenter_structural_summary.json",
+    "aiops_adjacency_binary": "aiops_adjacency_binary.csv",
+    "datacenter_adjacency_binary": "datacenter_adjacency_binary.csv"
+  }
+}

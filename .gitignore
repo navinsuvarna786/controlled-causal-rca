@@ -1,0 +1,17 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+outputs/
+# LaTeX build artifacts
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+# AIOps Challenge 2020 corpus (3 GB) — fetch with src/download_data.sh
+aiops_challenge_2020_stage1/
+aiops_challenge_2020_stage1.zip

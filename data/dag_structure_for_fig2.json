@@ -1,0 +1,181 @@
+{
+  "edges": [
+    [
+      "spine_packet_loss_rate",
+      "leaf_packet_loss_rate"
+    ],
+    [
+      "spine_queue_depth",
+      "spine_packet_loss_rate"
+    ],
+    [
+      "spine_link_util",
+      "spine_queue_depth"
+    ],
+    [
+      "spine_link_util",
+      "spine_cpu_util"
+    ],
+    [
+      "leaf_packet_loss_rate",
+      "server_retransmit_rate"
+    ],
+    [
+      "leaf_queue_depth",
+      "leaf_packet_loss_rate"
+    ],
+    [
+      "leaf_queue_depth",
+      "leaf_buffer_drops"
+    ],
+    [
+      "leaf_link_util_downlink",
+      "leaf_queue_depth"
+    ],
+    [
+      "leaf_link_util_downlink",
+      "leaf_cpu_util"
+    ],
+    [
+      "leaf_link_util_downlink",
+      "tor_congestion_index"
+    ],
+    [
+      "tor_congestion_index",
+      "server_app_latency"
+    ],
+    [
+      "server_retransmit_rate",
+      "server_conn_timeout_rate"
+    ],
+    [
+      "server_retransmit_rate",
+      "server_app_latency"
+    ],
+    [
+      "optical_rx_power",
+      "optical_ber"
+    ],
+    [
+      "optical_ber",
+      "spine_packet_loss_rate"
+    ],
+    [
+      "optical_ber",
+      "leaf_packet_loss_rate"
+    ],
+    [
+      "optical_ber",
+      "server_retransmit_rate"
+    ],
+    [
+      "vtep_reachability",
+      "vxlan_encap_error_rate"
+    ],
+    [
+      "vtep_reachability",
+      "vxlan_decap_error_rate"
+    ],
+    [
+      "bgp_route_flaps",
+      "bgp_convergence_time"
+    ],
+    [
+      "bgp_route_flaps",
+      "ecmp_path_imbalance"
+    ],
+    [
+      "bgp_route_flaps",
+      "routing_loop_detected"
+    ],
+    [
+      "bgp_update_rate",
+      "spine_cpu_util"
+    ],
+    [
+      "bgp_update_rate",
+      "leaf_cpu_util"
+    ],
+    [
+      "bgp_update_rate",
+      "arp_request_rate"
+    ],
+    [
+      "bgp_update_rate",
+      "lldp_frame_rate"
+    ]
+  ],
+  "roots": [
+    "bgp_route_flaps",
+    "bgp_update_rate",
+    "leaf_link_util_downlink",
+    "leaf_link_util_uplink",
+    "optical_rx_power",
+    "spine_link_util",
+    "transceiver_temp",
+    "vm_density",
+    "vtep_reachability"
+  ],
+  "leaves": [
+    "arp_request_rate",
+    "bgp_convergence_time",
+    "ecmp_path_imbalance",
+    "leaf_buffer_drops",
+    "leaf_cpu_util",
+    "leaf_link_util_uplink",
+    "lldp_frame_rate",
+    "routing_loop_detected",
+    "server_app_latency",
+    "server_conn_timeout_rate",
+    "spine_cpu_util",
+    "transceiver_temp",
+    "vm_density",
+    "vxlan_decap_error_rate",
+    "vxlan_encap_error_rate"
+  ],
+  "longest_path": [
+    "optical_rx_power",
+    "optical_ber",
+    "spine_packet_loss_rate",
+    "leaf_packet_loss_rate",
+    "server_retransmit_rate",
+    "server_conn_timeout_rate"
+  ],
+  "layers": {
+    "optical_rx_power": 1,
+    "transceiver_temp": 1,
+    "vm_density": 1,
+    "arp_request_rate": 1,
+    "lldp_frame_rate": 1,
+    "optical_ber": 2,
+    "spine_link_util": 2,
+    "leaf_link_util_uplink": 2,
+    "leaf_link_util_downlink": 2,
+    "vtep_reachability": 2,
+    "bgp_route_flaps": 2,
+    "bgp_update_rate": 2,
+    "spine_queue_depth": 3,
+    "spine_cpu_util": 3,
+    "leaf_queue_depth": 3,
+    "leaf_cpu_util": 3,
+    "vxlan_encap_error_rate": 3,
+    "vxlan_decap_error_rate": 3,
+    "bgp_convergence_time": 3,
+    "ecmp_path_imbalance": 3,
+    "routing_loop_detected": 3,
+    "spine_packet_loss_rate": 4,
+    "leaf_packet_loss_rate": 4,
+    "leaf_buffer_drops": 4,
+    "tor_congestion_index": 4,
+    "server_retransmit_rate": 5,
+    "server_conn_timeout_rate": 5,
+    "server_app_latency": 5
+  },
+  "stats": {
+    "nodes": 28,
+    "edges": 26,
+    "roots": 9,
+    "leaves": 15,
+    "density": 0.03439153439153439
+  }
+}

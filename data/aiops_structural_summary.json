@@ -1,0 +1,14 @@
+{
+  "node_count": 40,
+  "edge_count": 1,
+  "density": 0.000641025641025641,
+  "average_in_degree": 0.025,
+  "average_out_degree": 0.025,
+  "longest_path_length": 1,
+  "longest_path_nodes": [
+    "mw_redis__keyspace_misses",
+    "mw_redis__keyspace_hits"
+  ],
+  "number_of_roots": 39,
+  "number_of_leaves": 39
+}

@@ -1,0 +1,18 @@
+{
+  "node_count": 28,
+  "edge_count": 26,
+  "density": 0.03439153439153439,
+  "average_in_degree": 0.9285714285714286,
+  "average_out_degree": 0.9285714285714286,
+  "longest_path_length": 5,
+  "longest_path_nodes": [
+    "optical_rx_power",
+    "optical_ber",
+    "spine_packet_loss_rate",
+    "leaf_packet_loss_rate",
+    "server_retransmit_rate",
+    "server_conn_timeout_rate"
+  ],
+  "number_of_roots": 9,
+  "number_of_leaves": 15
+}
